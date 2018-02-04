@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\RKSJenPenDas\Contracts;
+<?php namespace Bantenprov\RasioGMSdMi\Contracts;
 
 /**
- * The RKSJenPenDasInterface interface
+ * The RasioGMSdMiInterface interface
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-interface RKSJenPenDasInterface
+interface RasioGMSdMiInterface
 {
     //
 }

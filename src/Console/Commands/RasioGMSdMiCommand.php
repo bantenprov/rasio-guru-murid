@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJenPenDas\Console\Commands;
+<?php namespace Bantenprov\RasioGMSdMi\Console\Commands;
 
 use Illuminate\Console\Command;
 
 /**
- * The RKSJenPenDasCommand class.
+ * The RasioGMSdMiCommand class.
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJenPenDasCommand extends Command
+class RasioGMSdMiCommand extends Command
 {
 
     /**
@@ -16,14 +16,14 @@ class RKSJenPenDasCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'bantenprov:rks-jen-pen-das';
+    protected $signature = 'bantenprov:rasio-guru-murid-sd-mi';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Demo command for Bantenprov\RKSJenPenDas package';
+    protected $description = 'Demo command for Bantenprov\RasioGMSdMi package';
 
     /**
      * Create a new command instance.
@@ -42,6 +42,6 @@ class RKSJenPenDasCommand extends Command
      */
     public function handle()
     {
-        $this->info('Welcome to command for Bantenprov\RKSJenPenDas package');
+        $this->info('Welcome to command for Bantenprov\RasioGMSdMi package');
     }
 }

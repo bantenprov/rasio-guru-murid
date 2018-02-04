@@ -1,6 +1,6 @@
 <?php
 
-namespace Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas;
+namespace Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -18,7 +18,7 @@ class Regency extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Province','id','province_id');
+        return $this->hasOne('Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi\Province','id','province_id');
     }
 
 }

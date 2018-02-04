@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJenPenDas\Facades;
+<?php namespace Bantenprov\RasioGMSdMi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * The RKSJenPenDas facade.
+ * The RasioGMSdMi facade.
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJenPenDas extends Facade
+class RasioGMSdMi extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -17,6 +17,6 @@ class RKSJenPenDas extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'rks-jen-pen-das';
+        return 'rasio-guru-murid-sd-mi';
     }
 }

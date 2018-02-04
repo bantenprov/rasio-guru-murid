@@ -1,14 +1,14 @@
 <?php
 
-namespace Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas;
+namespace Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class RKSJenPenDas extends Model
+class RasioGMSdMi extends Model
 {
 
-    protected $table = 'rks_jen_pen_dass';
+    protected $table = 'rasio_guru_murid_sd_mis';
     public $timestamps = true;
 
     use SoftDeletes;
@@ -18,12 +18,12 @@ class RKSJenPenDas extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Province','id','province_id');
+        return $this->hasOne('Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi\Province','id','province_id');
     }
 
     public function getRegency()
     {
-        return $this->hasOne('Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Regency','id','regency_id');
+        return $this->hasOne('Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi\Regency','id','regency_id');
     }
 
 }

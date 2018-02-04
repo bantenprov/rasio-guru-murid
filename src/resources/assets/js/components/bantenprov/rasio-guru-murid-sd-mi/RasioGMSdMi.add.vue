@@ -117,13 +117,13 @@ import Datepicker from 'vuejs-datepicker';
 import miniToastr from 'mini-toastr';
 miniToastr.init();
 export default {
-    name: "rks_jen_pen_das_add",
+    name: "rasio_guru_murid_sd_mi_add",
     components: {
         Datepicker
     },
     data() {
         return {
-            rks_jen_pen_dass: [],
+            rasio_guru_murid_sd_mis: [],
             provinces: [],
             regencies: {},
             formstate: {},
@@ -154,7 +154,7 @@ export default {
             } else {
               if(this.model.tahun >= 2000 && this.model.tahun <= (new Date()).getFullYear())
               {
-                axios.post("/rks-jen-pen-das/store", {
+                axios.post("/rasio-guru-murid-sd-mi/store", {
                   negara: this.model.negara,
                   province_id: this.model.province_id,
                   kab_kota: this.model.kab_kota,
@@ -165,14 +165,14 @@ export default {
                 .then(response => {
                   if(response.data.type == 'success'){
                     miniToastr.success(response.data.message, response.data.title)
-                    window.location.href = '#/admin/rks-jen-pen-das/'+response.data.id
+                    window.location.href = '#/admin/rasio-guru-murid-sd-mi/'+response.data.id
                   }
                   else{
                     miniToastr.error(response.data.message, response.data.title)
-                    window.location.href = '#/admin/rks-jen-pen-das/create'
+                    window.location.href = '#/admin/rasio-guru-murid-sd-mi/create'
                   }
                 },
-                window.location.href = '#/admin/rks-jen-pen-das/create')
+                window.location.href = '#/admin/rasio-guru-murid-sd-mi/create')
                 .catch((error) => miniToastr.error(error, "Error"));
               }else{
                 miniToastr.error('Tahun tidak sesuai.', 'error');
@@ -190,11 +190,11 @@ export default {
             };
         },
         back() {
-            window.location = '#/admin/rks-jen-pen-das';
+            window.location = '#/admin/rasio-guru-murid-sd-mi';
         }
     },
     mounted: function() {
-        axios.get("/rks-jen-pen-das/create").then(response => {
+        axios.get("/rasio-guru-murid-sd-mi/create").then(response => {
 
             this.provinces = response.data.provinces;
             this.regencies = response.data.regencies;

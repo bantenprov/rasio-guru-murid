@@ -5,14 +5,14 @@
       <div class="col-lg-6 mb-3">
         <div class="card h-100" style="color: #fff; background-color: #2196F3;">
           <div class="card-body">
-            <rks-jen-pen-das-bar-03></rks-jen-pen-das-bar-03>
+            <rasio-guru-murid-sd-mi-bar-03></rasio-guru-murid-sd-mi-bar-03>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
       <div class="col-lg-6 mb-3">
         <div class="card h-100" style="color: #fff; background-color: #4CAF50;">
           <div class="card-body">
-            <rks-jen-pen-das-pie-03></rks-jen-pen-das-pie-03>
+            <rasio-guru-murid-sd-mi-pie-03></rasio-guru-murid-sd-mi-pie-03>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -28,7 +28,7 @@
             Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Wilayah
           </div>
           <div class="card-body">
-            <rks-jen-pen-das-bar-01></rks-jen-pen-das-bar-01>
+            <rasio-guru-murid-sd-mi-bar-01></rasio-guru-murid-sd-mi-bar-01>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -39,7 +39,7 @@
             Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Wilayah
           </div>
           <div class="card-body">
-            <rks-jen-pen-das-pie-01></rks-jen-pen-das-pie-01>
+            <rasio-guru-murid-sd-mi-pie-01></rasio-guru-murid-sd-mi-pie-01>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->
@@ -55,7 +55,7 @@
             Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Kategori
           </div>
           <div class="card-body">
-            <rks-jen-pen-das-pie-02></rks-jen-pen-das-pie-02>
+            <rasio-guru-murid-sd-mi-pie-02></rasio-guru-murid-sd-mi-pie-02>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /.col -->
@@ -66,7 +66,7 @@
             Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Kategori
           </div>
           <div class="card-body">
-            <rks-jen-pen-das-bar-02></rks-jen-pen-das-bar-02>
+            <rasio-guru-murid-sd-mi-bar-02></rasio-guru-murid-sd-mi-bar-02>
           </div><!-- /.card-body -->
         </div><!-- /.card -->
       </div><!-- /col -->

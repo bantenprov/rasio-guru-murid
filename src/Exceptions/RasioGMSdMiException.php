@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJenPenDas\Exceptions;
+<?php namespace Bantenprov\RasioGMSdMi\Exceptions;
 
 use Exception;
 
 /**
- * The RKSJenPenDasException class.
+ * The RasioGMSdMiException class.
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJenPenDasException extends Exception
+class RasioGMSdMiException extends Exception
 {
     //
 }

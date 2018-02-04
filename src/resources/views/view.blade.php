@@ -1,1 +1,1 @@
-This is demo view file for Bantenprov\RKSJenPenDas package using blade template
+This is demo view file for Bantenprov\RasioGMSdMi package using blade template

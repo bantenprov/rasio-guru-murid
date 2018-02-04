@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\RKSJenPenDas\Contracts;
+<?php namespace Bantenprov\RasioGMSdMi\Contracts;
 
 /**
- * The RKSJenPenDasAbstract class
+ * The RasioGMSdMiAbstract class
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-abstract class RKSJenPenDasAbstract
+abstract class RasioGMSdMiAbstract
 {
     //
 }

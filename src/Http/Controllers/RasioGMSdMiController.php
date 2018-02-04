@@ -1,38 +1,38 @@
-<?php namespace Bantenprov\RKSJenPenDas\Http\Controllers;
+<?php namespace Bantenprov\RasioGMSdMi\Http\Controllers;
 
 /* require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\RKSJenPenDas\Facades\RKSJenPenDas;
+use Bantenprov\RasioGMSdMi\Facades\RasioGMSdMi;
 
 /* Models */
-use Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\RKSJenPenDas as PdrbModel;
-use Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Province;
-use Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Regency;
+use Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi\RasioGMSdMi as PdrbModel;
+use Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi\Province;
+use Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi\Regency;
 
 /* etc */
 use Validator;
 
 /**
- * The RKSJenPenDasController class.
+ * The RasioGMSdMiController class.
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJenPenDasController extends Controller
+class RasioGMSdMiController extends Controller
 {
 
     protected $province;
 
     protected $regency;
 
-    protected $rks_jen_pen_das;
+    protected $rasio_guru_murid_sd_mi;
 
-    public function __construct(Regency $regency, Province $province, PdrbModel $rks_jen_pen_das)
+    public function __construct(Regency $regency, Province $province, PdrbModel $rasio_guru_murid_sd_mi)
     {
         $this->regency  = $regency;
         $this->province = $province;
-        $this->rks_jen_pen_das     = $rks_jen_pen_das;
+        $this->rasio_guru_murid_sd_mi     = $rasio_guru_murid_sd_mi;
     }
 
     public function index(Request $request)
@@ -55,14 +55,14 @@ class RKSJenPenDasController extends Controller
     public function show($id)
     {
 
-        $rks_jen_pen_das = $this->rks-jen-pen-das->find($id);
+        $rasio_guru_murid_sd_mi = $this->rasio-guru-murid-sd-mi->find($id);
 
         return response()->json([
-            'negara'    => $rks-jen-pen-das->negara,
-            'province'  => $rks-jen-pen-das->getProvince->name,
-            'regencies' => $rks-jen-pen-das->getRegency->name,
-            'tahun'     => $rks-jen-pen-das->tahun,
-            'data'      => $rks-jen-pen-das->data
+            'negara'    => $rasio-guru-murid-sd-mi->negara,
+            'province'  => $rasio-guru-murid-sd-mi->getProvince->name,
+            'regencies' => $rasio-guru-murid-sd-mi->getRegency->name,
+            'tahun'     => $rasio-guru-murid-sd-mi->tahun,
+            'data'      => $rasio-guru-murid-sd-mi->data
         ]);
     }
 
@@ -88,7 +88,7 @@ class RKSJenPenDasController extends Controller
             ]);
         }
 
-        $check = $this->rks-jen-pen-das->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
+        $check = $this->rasio-guru-murid-sd-mi->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
 
         if($check > 0)
         {
@@ -99,7 +99,7 @@ class RKSJenPenDasController extends Controller
             ]);
 
         }else{
-            $data = $this->rks-jen-pen-das->create($request->all());
+            $data = $this->rasio-guru-murid-sd-mi->create($request->all());
 
             return response()->json([
                     'type'      => 'success',

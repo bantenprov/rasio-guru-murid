@@ -8,12 +8,12 @@ class CreateForeignKeys extends Migration {
 
 	public function up()
 	{
-		Schema::table('rks_jen_pen_dass', function(Blueprint $table) {
+		Schema::table('rasio_guru_murid_sd_mis', function(Blueprint $table) {
 			$table->foreign('province_id')->references('id')->on('provinces')
 						->onDelete('set null')
 						->onUpdate('restrict');
 		});
-		Schema::table('rks_jen_pen_dass', function(Blueprint $table) {
+		Schema::table('rasio_guru_murid_sd_mis', function(Blueprint $table) {
 			$table->foreign('regency_id')->references('id')->on('regencies')
 						->onDelete('set null')
 						->onUpdate('restrict');
@@ -27,11 +27,11 @@ class CreateForeignKeys extends Migration {
 
 	public function down()
 	{
-		Schema::table('rks_jen_pen_dass', function(Blueprint $table) {
-			$table->dropForeign('rks_jen_pen_dass_province_id_foreign');
+		Schema::table('rasio_guru_murid_sd_mis', function(Blueprint $table) {
+			$table->dropForeign('rasio_guru_murid_sd_mis_province_id_foreign');
 		});
-		Schema::table('rks_jen_pen_dass', function(Blueprint $table) {
-			$table->dropForeign('rks_jen_pen_dass_regency_id_foreign');
+		Schema::table('rasio_guru_murid_sd_mis', function(Blueprint $table) {
+			$table->dropForeign('rasio_guru_murid_sd_mis_regency_id_foreign');
 		});
 		Schema::table('regencies', function(Blueprint $table) {
 			$table->dropForeign('regencies_province_id_foreign');

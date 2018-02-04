@@ -1,17 +1,17 @@
 <?php
 
-namespace Bantenprov\RKSJenPenDas;
+namespace Bantenprov\RasioGMSdMi;
 
 use Illuminate\Support\ServiceProvider;
-use Bantenprov\RKSJenPenDas\Console\Commands\RKSJenPenDasCommand;
+use Bantenprov\RasioGMSdMi\Console\Commands\RasioGMSdMiCommand;
 
 /**
- * The RKSJenPenDasServiceProvider class
+ * The RasioGMSdMiServiceProvider class
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJenPenDasServiceProvider extends ServiceProvider
+class RasioGMSdMiServiceProvider extends ServiceProvider
 {
 
     /**
@@ -45,15 +45,15 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('rks-jen-pen-das', function ($app) {
-            return new RKSJenPenDas;
+        $this->app->singleton('rasio-guru-murid-sd-mi', function ($app) {
+            return new RasioGMSdMi;
         });
 
-        $this->app->singleton('command.rks-jen-pen-das', function ($app) {
-            return new RKSJenPenDasCommand;
+        $this->app->singleton('command.rasio-guru-murid-sd-mi', function ($app) {
+            return new RasioGMSdMiCommand;
         });
 
-        $this->commands('command.rks-jen-pen-das');
+        $this->commands('command.rasio-guru-murid-sd-mi');
     }
 
     /**
@@ -64,8 +64,8 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
     public function provides()
     {
         return [
-            'rks-jen-pen-das',
-            'command.rks-jen-pen-das',
+            'rasio-guru-murid-sd-mi',
+            'command.rasio-guru-murid-sd-mi',
         ];
     }
 
@@ -87,9 +87,9 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
     protected function configHandle()
     {
         $packageConfigPath = __DIR__.'/config/config.php';
-        $appConfigPath     = config_path('rks-jen-pen-das.php');
+        $appConfigPath     = config_path('rasio-guru-murid-sd-mi.php');
 
-        $this->mergeConfigFrom($packageConfigPath, 'rks-jen-pen-das');
+        $this->mergeConfigFrom($packageConfigPath, 'rasio-guru-murid-sd-mi');
 
         $this->publishes([
             $packageConfigPath => $appConfigPath,
@@ -105,10 +105,10 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
     {
         $packageTranslationsPath = __DIR__.'/resources/lang';
 
-        $this->loadTranslationsFrom($packageTranslationsPath, 'rks-jen-pen-das');
+        $this->loadTranslationsFrom($packageTranslationsPath, 'rasio-guru-murid-sd-mi');
 
         $this->publishes([
-            $packageTranslationsPath => resource_path('lang/vendor/rks-jen-pen-das'),
+            $packageTranslationsPath => resource_path('lang/vendor/rasio-guru-murid-sd-mi'),
         ], 'lang');
     }
 
@@ -121,10 +121,10 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
     {
         $packageViewsPath = __DIR__.'/resources/views';
 
-        $this->loadViewsFrom($packageViewsPath, 'rks-jen-pen-das');
+        $this->loadViewsFrom($packageViewsPath, 'rasio-guru-murid-sd-mi');
 
         $this->publishes([
-            $packageViewsPath => resource_path('views/vendor/rks-jen-pen-das'),
+            $packageViewsPath => resource_path('views/vendor/rasio-guru-murid-sd-mi'),
         ], 'views');
     }
 
@@ -139,7 +139,7 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packageAssetsPath => resource_path('assets'),
-        ], 'rks-jen-pen-das-assets');
+        ], 'rasio-guru-murid-sd-mi-assets');
     }
 
     /**
@@ -164,6 +164,6 @@ class RKSJenPenDasServiceProvider extends ServiceProvider
 
         $this->publishes([
             $packagePublicPath => base_path('public')
-        ], 'rks-jen-pen-das-public');
+        ], 'rasio-guru-murid-sd-mi-public');
     }
 }

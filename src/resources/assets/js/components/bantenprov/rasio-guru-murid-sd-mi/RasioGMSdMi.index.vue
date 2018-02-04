@@ -21,7 +21,7 @@ import {
     ClientTable,
     Event
 } from 'vue-tables-2'; 
-import datatable from "./RKSJenPenDasTable.vue";
+import datatable from "./RasioGMSdMiTable.vue";
 Vue.use(ClientTable, {}, false);
 
 //import miniToastr from 'mini-toastr';

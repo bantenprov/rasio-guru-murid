@@ -1,8 +1,8 @@
 <?php
 
-if (! function_exists('rksJePenDas')) {
-    function rksJePenDas()
+if (! function_exists('rasioGMSdMi')) {
+    function rasioGMSdMi()
     {
-        return 'Welcome to function rksJePenDas() for Bantenprov\RKSJenPenDas package';
+        return 'Welcome to function rasioGMSdMi() for Bantenprov\RasioGMSdMi package';
     }
 }

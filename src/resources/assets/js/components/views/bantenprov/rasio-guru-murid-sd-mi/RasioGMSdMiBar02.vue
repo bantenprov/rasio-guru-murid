@@ -149,7 +149,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/rks-jen-pen-das/rks-jen-pen-das-020.json').then(response => {
+    axios.get('/json/bantenprov/rasio-guru-murid-sd-mi/rasio-guru-murid-sd-mi-020.json').then(response => {
 
       let ke = 0;
 

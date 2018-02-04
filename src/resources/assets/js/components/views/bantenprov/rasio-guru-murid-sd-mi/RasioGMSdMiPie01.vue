@@ -104,7 +104,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/rks-jen-pen-das/rks-jen-pen-das-pie-010.json').then(response => {
+    axios.get('/json/bantenprov/rasio-guru-murid-sd-mi/rasio-guru-murid-sd-mi-pie-010.json').then(response => {
 
       let ke = 0;
 

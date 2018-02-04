@@ -1,16 +1,16 @@
 <?php
-namespace Bantenprov\RKSJenPenDas;
+namespace Bantenprov\RasioGMSdMi;
 
 /**
- * The RKSJenPenDas class.
+ * The RasioGMSdMi class.
  *
- * @package Bantenprov\RKSJenPenDas
+ * @package Bantenprov\RasioGMSdMi
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJenPenDas
+class RasioGMSdMi
 {
     public function welcome()
     {
-        return 'Welcome to Bantenprov\RKSJenPenDas package';
+        return 'Welcome to Bantenprov\RasioGMSdMi package';
     }
 }

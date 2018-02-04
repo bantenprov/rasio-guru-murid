@@ -1,6 +1,6 @@
 <?php
 
-namespace Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas;
+namespace Bantenprov\RasioGMSdMi\Models\Bantenprov\RasioGMSdMi;
 
 
 use Illuminate\Database\Eloquent\Model;
