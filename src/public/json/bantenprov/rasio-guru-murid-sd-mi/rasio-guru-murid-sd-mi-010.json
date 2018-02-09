@@ -2,20 +2,22 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2012",
-      "index": "Banten-2012",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2013",
+      "index": "Pandeglang-2013",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
       ]
     },
     "series": [
       {
         "data": [
-          5.59,
-          5.09        
+          11715,
+          157586,
+          743
         ]
       }
     ]
@@ -23,20 +25,528 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2012",
-      "index": "Indonesia-2012",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2014",
+      "index": "Pandeglang-2014",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
       ]
     },
     "series": [
       {
         "data": [
-          119.85,
-          112.5
+          11256,
+          179131,
+          628
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2015",
+      "index": "Pandeglang-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          11256,
+          179481,
+          627
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "yyyy": "2013",
+      "index": "Lebak-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9339,
+          163328,
+          572
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "yyyy": "2014",
+      "index": "Lebak-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9262,
+          187470,
+          494
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "yyyy": "2015",
+      "index": "Lebak-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          10242,
+          190598,
+          537
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "yyyy": "2013",
+      "index": "Tangerang-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          14997,
+          406113,
+          369
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "yyyy": "2014",
+      "index": "Tangerang-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          2553,
+          402001,
+          372
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "yyyy": "2015",
+      "index": "Tangerang-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          17360,
+          412780,
+          421
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Serang",
+      "yyyy": "2013",
+      "index": "Serang-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8265,
+          186666,
+          443
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Serang",
+      "yyyy": "2014",
+      "index": "Serang-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8305,
+          211389,
+          393
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Serang",
+      "yyyy": "2015",
+      "index": "Serang-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8305,
+          211728,
+          392
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang",
+      "yyyy": "2013",
+      "index": "Tangerang-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          7622,
+          261358,
+          292
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang",
+      "yyyy": "2014",
+      "index": "Tangerang-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8049,
+          222577,
+          362
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang",
+      "yyyy": "2015",
+      "index": "Tangerang-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8049,
+          222856,
+          361
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Cilegon",
+      "yyyy": "2013",
+      "index": "Cilegon-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          2883,
+          52497,
+          549
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Cilegon",
+      "yyyy": "2014",
+      "index": "Cilegon-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          2553,
+          50416,
+          506
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Cilegon",
+      "yyyy": "2015",
+      "index": "Cilegon-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          2790,
+          51029,
+          547
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Serang",
+      "yyyy": "2013",
+      "index": "Serang-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3872,
+          86584,
+          447
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Serang",
+      "yyyy": "2014",
+      "index": "Serang-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3237,
+          93132,
+          348
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Serang",
+      "yyyy": "2015",
+      "index": "Serang-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3713,
+          86077,
+          431
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "yyyy": "2013",
+      "index": "Tangerang Selatan-2013",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3872,
+          185604,
+          305
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "yyyy": "2014",
+      "index": "Tangerang Selatan-2014",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          5945,
+          161783,
+          367
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "yyyy": "2015",
+      "index": "Tangerang Selatan-2015",
+      "data": [
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          5945,
+          162042,
+          367
         ]
       }
     ]
@@ -49,36 +559,17 @@
       "yyyy": "2013",
       "index": "Banten-2013",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
       ]
     },
     "series": [
       {
         "data": [
-          5.59,
-          5.09
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2013",
-      "index": "Indonesia-2013",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          120.17,
-          112.76
+          64361,
+          1499736,
+          429
         ]
       }
     ]
@@ -91,36 +582,17 @@
       "yyyy": "2014",
       "index": "Banten-2014",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
       ]
     },
     "series": [
       {
         "data": [
-          5.34,
-          4.86          
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2014",
-      "index": "Indonesia-2014",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          121.87,
-          114.63
+          63565,
+          1507899,
+          422
         ]
       }
     ]
@@ -133,78 +605,17 @@
       "yyyy": "2015",
       "index": "Banten-2015",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Guru SD/MI  ",
+        "Jumlah Murid SD/MI ",
+        "RGM SD/MI"
       ]
     },
     "series": [
       {
         "data": [
-          5.34,
-          4.86          
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2015",
-      "index": "Indonesia-2015",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          121.87,
-          114.63
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2016",
-      "index": "Banten-2016",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5.59,
-          5.09
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2016",
-      "index": "Indonesia-2016",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          125.44,
-          118.41
+          67660,
+          1516591,
+          446
         ]
       }
     ]
