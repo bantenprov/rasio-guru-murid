@@ -1,7 +1,7 @@
 [
   {
     "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kabupaten Pandeglang",
       "region": "Kabupaten",
       "name": "Pandeglang",
       "data": [
@@ -22,49 +22,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kabupaten",
-      "name": "Pandeglang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          157586,
-          179131,
-          179481
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kabupaten",
-      "name": "Pandeglang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          743,
-          628,
-          627
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kabupaten Lebak",
       "region": "Kabupaten",
       "name": "Lebak",
       "data": [
@@ -85,49 +43,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kabupaten",
-      "name": "Lebak",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          163328,
-          187470,
-          190598
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kabupaten",
-      "name": "Lebak",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          572,
-          494,
-          537
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kabupaten Tangerang",
       "region": "Kabupaten",
       "name": "Tangerang",
       "data": [
@@ -148,49 +64,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kabupaten",
-      "name": "Tangerang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          406113,
-          402001,
-          412780
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kabupaten",
-      "name": "Tangerang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          369,
-          372,
-          421
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kabupaten Serang",
       "region": "Kabupaten",
       "name": "Serang",
       "data": [
@@ -211,49 +85,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kabupaten",
-      "name": "Serang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          186666,
-          211389,
-          211728
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kabupaten",
-      "name": "Serang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          443,
-          393,
-          392
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kota Tangerang",
       "region": "Kota",
       "name": "Tangerang",
       "data": [
@@ -274,49 +106,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kota",
-      "name": "Tangerang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          261358,
-          222577,
-          222856
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kota",
-      "name": "Tangerang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          292,
-          362,
-          361
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kota Cilegon",
       "region": "Kota",
       "name": "Cilegon",
       "data": [
@@ -337,49 +127,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kota",
-      "name": "Cilegon",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          52497,
-          50416,
-          51029
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kota",
-      "name": "Cilegon",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          549,
-          506,
-          547
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Kota Serang",
       "region": "Kota",
       "name": "Serang",
       "data": [
@@ -400,49 +148,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kota",
-      "name": "Serang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          86584,
-          93132,
-          86077
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kota",
-      "name": "Serang",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          447,
-          348,
-          431
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Tangerang Selatan",
       "region": "Kota",
       "name": "Tangerang Selatan",
       "data": [
@@ -463,49 +169,7 @@
   },
   {
     "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Kota",
-      "name": "Tangerang Selatan",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          185604,
-          161783,
-          162042
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Kota",
-      "name": "Tangerang Selatan",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          305,
-          367,
-          367
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Guru SD/MI  ",
+      "title": "Jumlah Guru SD/MI Provinsi Banten",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
@@ -520,48 +184,6 @@
           64361,
           63565,
           67660
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Jumlah Murid SD/MI ",
-      "region": "Provinsi",
-      "name": "Banten",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          1499736,
-          1507899,
-          1516591
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "RGM SD/MI ",
-      "region": "Provinsi",
-      "name": "Banten",
-      "data": [
-        "2013",
-        "2014",
-        "2015"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          429,
-          422,
-          446
         ]
       }
     ]

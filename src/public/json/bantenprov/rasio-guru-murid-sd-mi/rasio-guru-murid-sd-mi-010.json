@@ -5,433 +5,62 @@
       "region": "Kabupaten",
       "name": "Pandeglang",
       "yyyy": "2013",
-      "index": "Pandeglang-2013",
+      "title": "Jumlah Guru SD/MI 2013",
       "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           11715,
-          157586,
-          743
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Pandeglang",
-      "yyyy": "2014",
-      "index": "Pandeglang-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          11256,
-          179131,
-          628
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Pandeglang",
-      "yyyy": "2015",
-      "index": "Pandeglang-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          11256,
-          179481,
-          627
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Lebak",
-      "yyyy": "2013",
-      "index": "Lebak-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
           9339,
-          163328,
-          572
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Lebak",
-      "yyyy": "2014",
-      "index": "Lebak-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          9262,
-          187470,
-          494
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Lebak",
-      "yyyy": "2015",
-      "index": "Lebak-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          10242,
-          190598,
-          537
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Tangerang",
-      "yyyy": "2013",
-      "index": "Tangerang-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
           14997,
-          406113,
-          369
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Tangerang",
-      "yyyy": "2014",
-      "index": "Tangerang-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          2553,
-          402001,
-          372
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Tangerang",
-      "yyyy": "2015",
-      "index": "Tangerang-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          17360,
-          412780,
-          421
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Serang",
-      "yyyy": "2013",
-      "index": "Serang-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
           8265,
-          186666,
-          443
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Serang",
-      "yyyy": "2014",
-      "index": "Serang-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8305,
-          211389,
-          393
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kabupaten",
-      "name": "Serang",
-      "yyyy": "2015",
-      "index": "Serang-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8305,
-          211728,
-          392
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Tangerang",
-      "yyyy": "2013",
-      "index": "Tangerang-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
           7622,
-          261358,
-          292
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Tangerang",
-      "yyyy": "2014",
-      "index": "Tangerang-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8049,
-          222577,
-          362
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Tangerang",
-      "yyyy": "2015",
-      "index": "Tangerang-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8049,
-          222856,
-          361
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Cilegon",
-      "yyyy": "2013",
-      "index": "Cilegon-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
           2883,
+          3872,
+          5668
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2013",
+      "title": "Jumlah Murid SD/MI 2013",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          157586,
+          163328,
+          406113,
+          186666,
+          261358,
           52497,
-          549
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Cilegon",
-      "yyyy": "2014",
-      "index": "Cilegon-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          2553,
-          50416,
-          506
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Cilegon",
-      "yyyy": "2015",
-      "index": "Cilegon-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          2790,
-          51029,
-          547
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Serang",
-      "yyyy": "2013",
-      "index": "Serang-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          3872,
           86584,
-          447
+          185604
         ]
       }
     ]
@@ -439,67 +68,31 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Kota",
-      "name": "Serang",
-      "yyyy": "2014",
-      "index": "Serang-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          3237,
-          93132,
-          348
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Serang",
-      "yyyy": "2015",
-      "index": "Serang-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          3713,
-          86077,
-          431
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Kota",
-      "name": "Tangerang Selatan",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
       "yyyy": "2013",
-      "index": "Tangerang Selatan-2013",
+      "title": "RGM SD/MI 2013",
       "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
-          3872,
-          185604,
+          743,
+          572,
+          369,
+          443,
+          292,
+          549,
+          447,
           305
         ]
       }
@@ -508,21 +101,97 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Kota",
-      "name": "Tangerang Selatan",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
       "yyyy": "2014",
-      "index": "Tangerang Selatan-2014",
+      "title": "Jumlah Guru SD/MI 2014",
       "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
-          5945,
-          161783,
+          11256,
+          9262,
+          14958,
+          8305,
+          8049,
+          2553,
+          3237,
+          5945
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2014",
+      "title": "Jumlah Murid SD/MI 2014",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          179131,
+          187470,
+          402001,
+          211389,
+          222577,
+          50416,
+          93132,
+          161783
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2014",
+      "title": "RGM SD/MI 2014",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          628,
+          494,
+          372,
+          393,
+          362,
+          506,
+          348,
           367
         ]
       }
@@ -531,91 +200,98 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Kota",
-      "name": "Tangerang Selatan",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
       "yyyy": "2015",
-      "index": "Tangerang Selatan-2015",
+      "title": "Jumlah Guru SD/MI 2015",
       "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
-          5945,
-          162042,
+          11256,
+          10242,
+          17360,
+          8305,
+          8049,
+          2790,
+          3713,
+          5945
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2015",
+      "title": "Jumlah Murid SD/MI 2015",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          179481,
+          190598,
+          412780,
+          211728,
+          222856,
+          51029,
+          86077,
+          162042
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2015",
+      "title": "RGM SD/MI 2015",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilgon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          627,
+          537,
+          421,
+          392,
+          361,
+          547,
+          431,
           367
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2013",
-      "index": "Banten-2013",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          64361,
-          1499736,
-          429
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2014",
-      "index": "Banten-2014",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          63565,
-          1507899,
-          422
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2015",
-      "index": "Banten-2015",
-      "data": [
-        "Jumlah Guru SD/MI  ",
-        "Jumlah Murid SD/MI ",
-        "RGM SD/MI"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          67660,
-          1516591,
-          446
         ]
       }
     ]
